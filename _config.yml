@@ -2,5 +2,5 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: [Audio Examples]
-description: [Optimizing Filter Design using Deep Learning]
+title: [RAVE for Speech]
+description: [A High-Quality Speaker Conditioned and Real-Time Efficient Auto Encoder]
