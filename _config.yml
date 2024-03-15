@@ -2,5 +2,5 @@
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: [RAVE for Speech: A High-Quality Speaker Conditioned and Real-Time Efficient Auto Encoder]
+title: [RAVE for Speech]
 description: [A High-Quality Speaker Conditioned and Real-Time Efficient Auto Encoder]
