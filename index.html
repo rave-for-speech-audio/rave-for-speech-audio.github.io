@@ -22,6 +22,16 @@ layout: default
 <h2 id="audio-demos">Audio Examples</h2>
 <p>This page contains voice conversion samples for the S-RAVE model. We provide samples in unseen-to-seen and unseen-to-unseen scenarios using data from the VCTK dataset. Lastly we provide a few cherrypicked examples of conversions carried out on out-of-domain data, namely input data from the LibriSpeech dataset. All examples are generated and rendered at 48kHz.</p>
 
+<h3 id="navigation">Navigation</h3>
+
+<ul>
+  <li><a href="#unseen-to-seen-voice-conversion">Unseen-to-Seen Voice Conversion</a></li>
+  <li><a href="#unseen-to-unseen-voice-conversion">Unseen-to-Unseen Voice Conversion</a></li>
+  <li><a href="#libri-to-seen-voice-conversionn">Librispeech-to-Seen Voice Conversion</a></li>
+</ul>
+
+<p></p>
+
 <h3 id="unseen-to-seen-voice-conversion">Unseen-to-Seen Voice Conversion</h3>
 <!-- Source: M1 -->
 <div class="row">
@@ -488,7 +498,7 @@ layout: default
     </div>
 </div>
 
-<h3 id="libri-to-seen-voice-conversion">Out of domain LibriSpeech (To Seen Speakers)</h3>
+<h3 id="libri-to-seen-voice-conversion">Out of domain data (LibriSpeech-to-Seen Conversion)</h3>
 
 <!-- Source: LIBRI -->
 <div class="row">
@@ -541,7 +551,7 @@ layout: default
               </td>
               <td style="vertical-align: top;"><p></p>
                 <audio id="player" controls="" style="width: 100%;">
-                    <source src="librispeech/seen_1089_134686_000001_000001_p241_target.wav" type="audio/wav" />
+                    <source src="librispeech/seen_1089_134686_000001_000001_p241_conv.wav" type="audio/wav" />
                 </audio>
               </td>
             </tr>
